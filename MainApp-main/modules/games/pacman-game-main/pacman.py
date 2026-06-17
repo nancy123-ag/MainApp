@@ -8,11 +8,11 @@ from pymongo import MongoClient
 from datetime import datetime
 
 # 🔥 MongoDB Atlas CONNECT
-uri = "mongodb+srv://emoheal_user:Emoheal123@cluster0.hwezm4z.mongodb.net/?retryWrites=true&w=majority"
+uri = ""
 client = MongoClient(uri)
 
 db = client["emohealDB"]
-collection = db["game_data"]
+collection = db[""]
 
 # 💾 SAVE FUNCTION
 def save_game_data(score):

@@ -203,14 +203,13 @@ class API:
     # ================= SCORES =================
     def get_latest_score(self):
         from pymongo import MongoClient
-        client = MongoClient("mongodb+srv://emoheal_user:Emoheal123@cluster0.hwezm4z.mongodb.net/")
-        return client["emohealDB"]["game_data"].find_one(sort=[("timestamp", -1)])["score"]
+        client = 
+        return client
 
     def get_latest_pacman_score(self):
         from pymongo import MongoClient
-        client = MongoClient("mongodb+srv://emoheal_user:Emoheal123@cluster0.hwezm4z.mongodb.net/")
-        return client["emohealDB"]["game_data"].find_one(sort=[("timestamp", -1)])["score"]
-
+        client = MongoClient"
+        eturn client
 
 # ================= MAIN =================
 if __name__ == '__main__':

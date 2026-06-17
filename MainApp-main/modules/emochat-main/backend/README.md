@@ -83,8 +83,8 @@ emoheal/
 
 Create `backend/.env`:
 ```
-MONGODB_URL=mongodb+srv://emoheal_team:password@cluster.mongodb.net/
-DB_NAME=emoheal
+MONGODB_URL/
+DB_NAME=
 JWT_SECRET=your_strong_secret_here
 JWT_EXPIRE_HOURS=24
 GROQ_API_KEY=gsk_your_groq_key_here
